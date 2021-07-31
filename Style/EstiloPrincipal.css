@@ -1,0 +1,88 @@
+
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Contenedor {
+ border: solid 1px black; 
+ width: 100%;
+ max-width: 1000px;
+ margin:auto;
+ box-sizzing: border-box;
+ overflow:hidden;
+}
+
+
+.Cabecera {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height:100px
+}
+
+.Cabecera figure {
+ width: 130px;
+ margin: auto;
+}
+
+.Cabecera img {
+ width:130px; 
+ height: 100px;
+}
+
+.cabecera_h1 {
+ position:absolute;
+ top: 40px;
+ left:150px;
+}
+
+.cabecera_frase {
+ position:absolute;
+ top:70px;
+ left:235;
+}
+
+.nav {
+margin: 10px 10px 0 0;
+position:unset;
+bacground:none;
+height: auto;
+width: unset;
+border:none;  
+}
+
+.nav_link {
+ background: #008899;
+ color:white;
+ padding:5px;
+ border-radius:3px;
+}
+
+.nav_link_palote {
+ background: #008899;
+ color:white;
+ padding:5px;
+ border-radius:3px;
+}
+
+.nav_link_button {
+ background: #008899;
+ color:white;
+ padding:5px;
+ border-radius:3px;
+}
+/**************************/
+
+.galeria {
+  width: 100%;
+  height: 400px;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+
+
