@@ -128,5 +128,73 @@ label{
   cursor: pointer;
 }
 
+.tienda {
+ display: grid;
+ grid-template: repeat(3, 300px) / repeat(3, 300px);
+ justify-content: center;
+ grid-gap:16px;
+ width: 100%;
+ height: auto;
+}
+
+.tienda article {
+ display:flex;
+ justify-content: center;
+ align-content: space-between;
+ flex-flow: wrap;
+ border: solid;
+ border-radius: 15px;
+ overflow: Hidden;
+}
+
+.tienda img {
+  position: relative;
+  top: 5px;
+  width: 150px;
+  height: 100px;
+  border-radius: 15px;
+ 
+}
+
+.tienda p {
+  text-align: justify; 
+  padding: 5px;
+  
+}
+
+.tienda h3 {
+  
+ text-align:center; 
+}
+
+.tienda div {
+ width: 100%;
+ height: 50px;
+ background: #008899;
+}
+
+
+
+/********PIE PAGINA***********/
+
+.espacio{
+ position: relative;
+ height: 20px
+}
+
+.PiePagina {
+  display: flex;
+  justify-content: center;
+  postion: relative;
+  height: 100px;
+  background: #008899;
+  align-content: center; 
+}
+
+.PiePagina footer {
+ text-align: center;
+ color: white;
+ 
+}
 
 
