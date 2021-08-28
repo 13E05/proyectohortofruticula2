@@ -1,0 +1,36 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+   margin:0;
+   font-family: sans-serif;
+   background:#204862;
+}
+
+
+.contenedor {
+ color: #fff;
+ text-align:center;
+}
+
+.form-municipio{
+ width:60%;
+ max-width: 500px;
+ margin:auto;
+ background:#d6e6ed;
+ border-radius:7px;
+}
+
+
+.titulo-form-municipio {
+ background: #4E94AB;
+ color:#fff;
+ padding: 8px;
+ text-align:center;
+ font-weight:100%;
+ font-size:30px;
+ border-top-left-radius:7px;
+ border-top-right-radius:7px;
+ border-bottom: 10px solid crimson;
+}
